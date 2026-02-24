@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Sharveshver Portfolio</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(270deg,#a1c4fd,#c2e9fb,#d4fc79);
+background-size:600% 600%;
+animation:bgmove 10s infinite;
+text-align:center;
+}
+
+/* Moving Background */
+
+@keyframes bgmove{
+
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+
+}
+
+/* Header */
+
+.header{
+
+background:rgba(0,0,0,0.7);
+color:white;
+padding:25px;
+font-size:28px;
+animation:fade 2s;
+
+}
+
+
+/* Fade Animation */
+
+@keyframes fade{
+
+from{opacity:0;}
+to{opacity:1;}
+
+}
+
+
+/* Profile */
+
+.profile{
+
+margin-top:30px;
+animation:up 2s;
+
+}
+
+@keyframes up{
+
+from{
+transform:translateY(100px);
+opacity:0;
+}
+
+to{
+transform:translateY(0px);
+opacity:1;
+}
+
+}
+
+
+.profile img{
+
+width:180px;
+height:180px;
+border-radius:50%;
+box-shadow:0px 0px 20px black;
+animation:zoom 4s infinite alternate;
+
+}
+
+/* Zoom Animation */
+
+@keyframes zoom{
+
+from{transform:scale(1);}
+to{transform:scale(1.1);}
+
+}
+
+
+
+/* Sections */
+
+.section{
+
+background:white;
+width:70%;
+margin:30px auto;
+padding:25px;
+border-radius:20px;
+box-shadow:0px 0px 20px gray;
+animation:fade 3s;
+
+}
+
+
+/* Skills */
+
+.skills p{
+
+font-size:18px;
+transition:0.3s;
+
+}
+
+.skills p:hover{
+
+color:blue;
+transform:scale(1.2);
+
+}
+
+
+/* Projects */
+
+.projects{
+
+text-align:left;
+font-size:18px;
+
+}
+
+
+/* Contact */
+
+.contact{
+
+font-size:18px;
+
+}
+
+
+/* Icons */
+
+.icons img{
+
+width:50px;
+margin:10px;
+transition:0.3s;
+
+}
+
+.icons img:hover{
+
+transform:rotate(10deg) scale(1.2);
+
+}
+
+
+/* Title Animation */
+
+h2{
+
+color:#444;
+animation:slide 2s;
+
+}
+
+@keyframes slide{
+
+from{
+transform:translateX(-200px);
+opacity:0;
+}
+
+to{
+transform:translateX(0px);
+opacity:1;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<div class="header">
+
+Sharveshver Portfolio
+
+</div>
+
+
+
+<div class="profile">
+
+<img src="https://i.pinimg.com/564x/4c/44/3d/4c443d6f9a5c0b5bb7bb8f9bbf7a62f.jpg">
+
+<h2>Sharveshver</h2>
+
+<p>
+
+Hello! I am Sharveshver.  
+I am a good learner who enjoys coding and building websites.  
+I like learning new technologies and improving my skills.
+
+</p>
+
+</div>
+
+
+
+<div class="section">
+
+<h2>My Skills</h2>
+
+<div class="skills">
+
+<p>HTML</p>
+
+<p>CSS</p>
+
+<p>JavaScript</p>
+
+<p>Web Design</p>
+
+</div>
+
+</div>
+
+
+
+<div class="section">
+
+<h2>My Projects</h2>
+
+<div class="projects">
+
+
+<b>Food Menu Table</b>
+
+<p>
+
+Web page showing food items, prices and categories
+using colorful tables.
+
+</p>
+
+
+<b>Student Registration Form</b>
+
+<p>
+
+Form to collect student details.
+
+</p>
+
+
+<b>Login Form</b>
+
+<p>
+
+Username and password login page.
+
+</p>
+
+
+<b>Photo Gallery</b>
+
+<p>
+
+Gallery with images and captions.
+
+</p>
+
+
+<b>Student Marks Table</b>
+
+<p>
+
+Student marks displayed in table format.
+
+</p>
+
+
+<b>Portfolio Website</b>
+
+<p>
+
+Personal website using HTML CSS and JavaScript.
+
+</p>
+
+
+</div>
+
+</div>
+
+
+
+<div class="section">
+
+<h2>Contact Me</h2>
+
+<div class="contact">
+
+Email:
+
+sharveshver@gmail.com
+
+</div>
+
+<br>
+
+<div class="icons">
+
+<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png">
+
+<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
+
+<img src="https://cdn-icons-png.flaticon.com/512/124/124010.png">
+
+</div>
+
+
+</div>
+
+
+
+</body>
+
+</html>
